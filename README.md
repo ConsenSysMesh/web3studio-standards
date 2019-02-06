@@ -6,6 +6,9 @@ A collection of boilerplate config to be used by Web3Studio projects.
 
 ```bash
 $ yarn add --dev eslint-config-web3studio eslint prettier pretty-quick husky
+
+# For projects with Smart Contracts
+$ yarn add --dev solium-config-web3studio solium
 ```
 
 In your `.eslintrc.js` file:
@@ -25,6 +28,15 @@ In your `.prettierrc.js` file:
 module.exports = require('eslint-config-web3studio/prettier');
 ```
 
+In your `.soliumrc.json` file:
+
+```json
+{
+  "extends": "web3studio",
+  "plugins": ["security"]
+}
+```
+
 In your `package.json` file:
 
 ```json
@@ -35,7 +47,9 @@ In your `package.json` file:
     }
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "yarn lint:js && yarn lint:sol",
+    "lint:js": "eslint .",
+    "lint:sol: "solium -d .",
     "prettier": "prettier \"**/*.{js,json,css,md}\" --write"
   }
 }
@@ -43,9 +57,11 @@ In your `package.json` file:
 
 ## Releasing a New Version
 
-web3studio-standards uses [Semver](https://semver.org/) for versioning. Based on the changes
-since the last release, determine which type of release this is, `major`,
-`minor`, or `patch`.
+**NB:** For maintainers only.
+
+`web3studio-standards` uses [Semver](https://semver.org/) for versioning.
+Based on the changes since the last release, determine which type of
+release this is, `major`, `minor`, or `patch`.
 
 Use lerna to update all of the packages to the new version, and create a pull
 request. Travis will handle publishing to npm.

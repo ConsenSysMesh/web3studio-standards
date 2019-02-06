@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn readme:build && yarn pretty-quick --staged"
+      "pre-commit": "yarn pretty-quick --staged"
     }
   }
 }
