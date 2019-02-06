@@ -1,0 +1,26 @@
+{
+  "name": "solium-config-web3studio",
+  "version": "1.2.0",
+  "description": "Solium config for web3studio",
+  "keywords": [
+    "solium",
+    "soliumconfig"
+  ],
+  "author": "Web3Studio Developers <web3studio@consensys.net>",
+  "homepage": "https://github.com/ConsenSys/web3studio-standards#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsenSys/web3studio-standards.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ConsenSys/web3studio-standards/issues"
+  },
+  "peerDependencies": {
+    "solium": "^1.0.0"
+  }
+}
