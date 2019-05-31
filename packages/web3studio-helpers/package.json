@@ -1,0 +1,29 @@
+{
+  "name": "web3studio-helpers",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Common code shared across w3s truffle projects",
+  "author": "Web3Studio Developers <web3studio@consensys.net>",
+  "homepage": "https://github.com/ConsenSys/web3studio-bootleg#readme",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Consensys/web3studio-standards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/barlock/web3studio-standards/issues"
+  },
+  "bin": {
+    "w3s-expect-clean-git-tree": "./bin/w3s-expect-clean-git-tree",
+    "w3s-setup-ganache": "./bin/w3s-setup-ganache",
+    "w3s-truffle-test": "./bin/w3s-truffle-test"
+  },
+  "dependencies": {
+    "@0x/sol-coverage": "^3.0.5",
+    "@0x/sol-trace": "^2.0.13",
+    "dotenv": "^8.0.0",
+    "jest-matchers": "^20.0.3",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5",
+    "web3": "1.0.0-beta.35"
+  }
+}
