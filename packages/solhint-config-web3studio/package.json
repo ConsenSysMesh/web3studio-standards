@@ -1,10 +1,10 @@
 {
-  "name": "solium-config-web3studio",
+  "name": "solhint-config-web3studio",
   "version": "1.2.0",
-  "description": "Solium config for web3studio",
+  "description": "Solhint config for web3studio",
   "keywords": [
-    "solium",
-    "soliumconfig"
+    "solhint",
+    "solhintconfig"
   ],
   "author": "Web3Studio Developers <web3studio@consensys.net>",
   "homepage": "https://github.com/ConsenSys/web3studio-standards#readme",
@@ -21,6 +21,6 @@
     "url": "https://github.com/ConsenSys/web3studio-standards/issues"
   },
   "peerDependencies": {
-    "solium": "^1.0.0"
+    "solhint": "^2.0.0"
   }
 }
