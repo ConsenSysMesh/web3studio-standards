@@ -49,7 +49,7 @@ In your `package.json` file:
   "scripts": {
     "lint": "yarn lint:js && yarn lint:sol",
     "lint:js": "eslint .",
-    "lint:sol: "solium -d .",
+    "lint:sol": "solium -d .",
     "prettier": "prettier \"**/*.{js,json,css,md}\" --write"
   }
 }
