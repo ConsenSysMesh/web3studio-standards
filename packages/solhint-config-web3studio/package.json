@@ -1,6 +1,6 @@
 {
   "name": "solhint-config-web3studio",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Solhint config for web3studio",
   "keywords": [
     "solhint",
