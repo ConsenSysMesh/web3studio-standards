@@ -1,6 +1,6 @@
 {
   "name": "web3studio-helpers",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Common code shared across w3s truffle projects",
   "author": "Web3Studio Developers <web3studio@consensys.net>",
   "homepage": "https://github.com/ConsenSys/web3studio-bootleg#readme",
