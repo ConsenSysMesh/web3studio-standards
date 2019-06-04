@@ -8,7 +8,7 @@ A collection of boilerplate config to be used by Web3Studio projects.
 $ yarn add --dev eslint-config-web3studio eslint prettier pretty-quick husky
 
 # For projects with Smart Contracts
-$ yarn add --dev solium-config-web3studio solium
+$ yarn add --dev solhint-config-web3studio solhint
 ```
 
 In your `.eslintrc.js` file:
@@ -28,7 +28,7 @@ In your `.prettierrc.js` file:
 module.exports = require('eslint-config-web3studio/prettier');
 ```
 
-In your `.soliumrc.json` file:
+In your `.solhintrc.json` file:
 
 ```json
 {
@@ -49,7 +49,7 @@ In your `package.json` file:
   "scripts": {
     "lint": "yarn lint:js && yarn lint:sol",
     "lint:js": "eslint .",
-    "lint:sol": "solium -d .",
+    "lint:sol": "solhint -d .",
     "prettier": "prettier \"**/*.{js,json,css,md}\" --write"
   }
 }

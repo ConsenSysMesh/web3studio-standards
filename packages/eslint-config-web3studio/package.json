@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-web3studio",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Web3Studio eslint config",
   "main": "index.js",
   "repository": {
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/ConsenSys/web3studio-standards#readme",
   "dependencies": {
     "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-jsdoc": "^4.1.0",
+    "eslint-plugin-jsdoc": "^7.2.3",
     "eslint-plugin-prettier": "^3.0.1"
   },
   "peerDependencies": {
