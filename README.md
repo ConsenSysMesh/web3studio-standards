@@ -28,12 +28,11 @@ In your `.prettierrc.js` file:
 module.exports = require('eslint-config-web3studio/prettier');
 ```
 
-In your `.solhintrc.json` file:
+In your `.solhint.json` file:
 
 ```json
 {
-  "extends": "web3studio",
-  "plugins": ["security"]
+  "extends": ["solhint:recommended", "web3studio"]
 }
 ```
 
@@ -49,7 +48,7 @@ In your `package.json` file:
   "scripts": {
     "lint": "yarn lint:js && yarn lint:sol",
     "lint:js": "eslint .",
-    "lint:sol": "solhint -d .",
+    "lint:sol": "solhint \"**/*.sol\"",
     "prettier": "prettier \"**/*.{js,json,css,md}\" --write"
   }
 }
