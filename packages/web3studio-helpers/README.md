@@ -35,6 +35,18 @@ module.exports = require('web3studio-helpers/truffle-config')(__dirname, {
 require('web3studio-helpers/truffleTestGlobals');
 ```
 
+For coverage requirements, drop a `.istanbul.yml` file in the root of the package:
+
+```yaml
+# .istanbul.yml
+check:
+  global:
+    statements: 100
+    lines: 100
+    branches: 100
+    functions: 100
+```
+
 ## Environment Variables
 
 You'll need to set some environment variables to use the config on a testnet or mainnet. You can do so either via your shell or with a `.env` file
