@@ -5,15 +5,14 @@ Solium config for web3studio projects.
 ## Installation
 
 ```bash
-$ yarn add --dev solium-config-web3studio solium
+$ yarn add --dev solhint-config-web3studio solhint
 ```
 
-In your `.soliumrc.json` file:
+In your `.solhint.json` file:
 
 ```json
 {
-  "extends": "web3studio",
-  "plugins": ["security"]
+  "extends": ["solhint:recommended", "web3studio"]
 }
 ```
 
