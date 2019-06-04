@@ -3608,6 +3608,24 @@ eslint-config-prettier@^4.0.0:
   dependencies:
     get-stdin "^6.0.0"
 
+eslint-config-web3studio@^1.1.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-web3studio/-/eslint-config-web3studio-1.2.0.tgz#978665bb5dad66fdd99f9567723d5bf4648685d5"
+  integrity sha512-GzjM5k7tFKGeQ0FMRp/3xoG/3DYkamdOn4OiNkzM30TQQOVIyk0G5PPfoHoZia1w6UlUkOjRQ0SiHTIybXJBbw==
+  dependencies:
+    eslint-config-prettier "^4.0.0"
+    eslint-plugin-jsdoc "^4.1.0"
+    eslint-plugin-prettier "^3.0.1"
+
+eslint-plugin-jsdoc@^4.1.0:
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-4.8.4.tgz#31f413c8a31fe656881398d8920b381bfdfac618"
+  integrity sha512-VDP+BI2hWpKNNdsJDSPofSQ9q7jGLgWbDMI0LzOeEcfsTjSS7jQtHDUuVLQ5E+OV2MPyQPk/3lnVcHfStXk5yA==
+  dependencies:
+    comment-parser "^0.5.4"
+    jsdoctypeparser "3.1.0"
+    lodash "^4.17.11"
+
 eslint-plugin-jsdoc@^7.2.3:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-7.2.3.tgz#04d21890cdadf33290f865b27f2f901f1321aa42"
